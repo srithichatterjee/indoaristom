@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import ScrollReveal from './ScrollReveal';
 import AnimatedCounter from './AnimatedCounter';
 import styles from './About.module.css';
@@ -61,20 +62,14 @@ export default function About() {
           <ScrollReveal direction="left" delay={0.2}>
             <div className={styles.photoContainer}>
               <div className={styles.photoFrame}>
-                <div
+                <Image
+                  src="/images/Gemini_Generated_Image_i03clni03clni03c.png"
+                  alt="Tapan Kumar Chatterjee - Proprietor of Indo Aristom"
+                  width={400}
+                  height={500}
                   className={styles.photo}
-                  style={{
-                    background: 'linear-gradient(135deg, #292524 0%, #44403C 50%, #292524 100%)',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                  }}
-                >
-                  <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="60" cy="40" r="24" fill="rgba(184,134,11,0.3)" />
-                    <ellipse cx="60" cy="100" rx="38" ry="28" fill="rgba(184,134,11,0.2)" />
-                  </svg>
-                </div>
+                  priority
+                />
               </div>
               <div className={styles.photoDecor} />
               <div className={styles.photoExp}>
