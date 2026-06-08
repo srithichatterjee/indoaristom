@@ -1,0 +1,143 @@
+.footer {
+  background: var(--color-charcoal);
+  position: relative;
+  overflow: hidden;
+}
+
+.footerTop {
+  height: 4px;
+  background: var(--gradient-gold);
+}
+
+.footerContent {
+  padding: 50px 0 28px;
+}
+
+.footerMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  margin-bottom: 40px;
+}
+
+.footerBrand {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footerLogo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footerLogoImage {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(184, 134, 11, 0.3);
+}
+
+.footerLogoText {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--color-white);
+  letter-spacing: 2px;
+}
+
+.footerBrandDesc {
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.8;
+  max-width: 380px;
+}
+
+.footerContact h4 {
+  font-family: var(--font-accent);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-gold);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.footerContactItems {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footerContactItem {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.footerContactItem svg {
+  flex-shrink: 0;
+  margin-top: 3px;
+  color: var(--color-gold);
+  opacity: 0.7;
+}
+
+.footerContactItem p {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.6;
+}
+
+.footerContactItem a {
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 0.3s ease;
+}
+
+.footerContactItem a:hover {
+  color: var(--color-gold-light);
+}
+
+.footerDivider {
+  width: 100%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.06);
+  margin-bottom: 24px;
+}
+
+.footerBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.copyright {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.copyright span {
+  color: var(--color-gold);
+  font-weight: 600;
+}
+
+.footerCredits {
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.25);
+}
+
+@media (max-width: 768px) {
+  .footerMain {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .footerBottom {
+    flex-direction: column;
+    text-align: center;
+  }
+}
