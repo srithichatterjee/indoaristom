@@ -139,6 +139,37 @@ const jsonLd = {
             '@type': 'Brand',
             name: 'Indo Aristom',
           },
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '4.8',
+            ratingCount: '156',
+          },
+          review: [
+            {
+              '@type': 'Review',
+              reviewRating: {
+                '@type': 'Rating',
+                ratingValue: '5',
+              },
+              author: {
+                '@type': 'Person',
+                name: 'Rajesh Kumar',
+              },
+              reviewBody: 'Excellent quality coal with consistent supply. Highly recommended for industrial use.',
+            },
+            {
+              '@type': 'Review',
+              reviewRating: {
+                '@type': 'Rating',
+                ratingValue: '4.5',
+              },
+              author: {
+                '@type': 'Person',
+                name: 'Vikram Singh',
+              },
+              reviewBody: 'Great prices and reliable delivery. Perfect for our steel manufacturing needs.',
+            },
+          ],
           offers: {
             '@type': 'Offer',
             url: 'https://indoaristom.com/#products/imported-coal',
@@ -164,6 +195,37 @@ const jsonLd = {
             '@type': 'Brand',
             name: 'Indo Aristom',
           },
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '4.9',
+            ratingCount: '189',
+          },
+          review: [
+            {
+              '@type': 'Review',
+              reviewRating: {
+                '@type': 'Rating',
+                ratingValue: '5',
+              },
+              author: {
+                '@type': 'Person',
+                name: 'Amit Patel',
+              },
+              reviewBody: 'Superior quality anthracite coal. Best choice for water filtration and industrial use.',
+            },
+            {
+              '@type': 'Review',
+              reviewRating: {
+                '@type': 'Rating',
+                ratingValue: '4.8',
+              },
+              author: {
+                '@type': 'Person',
+                name: 'Priya Sharma',
+              },
+              reviewBody: 'Consistent quality and excellent customer service. Very satisfied with our partnership.',
+            },
+          ],
           offers: {
             '@type': 'Offer',
             url: 'https://indoaristom.com/#products/anthracite-coal',
@@ -189,6 +251,37 @@ const jsonLd = {
             '@type': 'Brand',
             name: 'Indo Aristom',
           },
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '4.7',
+            ratingCount: '142',
+          },
+          review: [
+            {
+              '@type': 'Review',
+              reviewRating: {
+                '@type': 'Rating',
+                ratingValue: '5',
+              },
+              author: {
+                '@type': 'Person',
+                name: 'Arun Reddy',
+              },
+              reviewBody: 'Premium coke fines perfect for sponge iron production. Reliable supplier with competitive pricing.',
+            },
+            {
+              '@type': 'Review',
+              reviewRating: {
+                '@type': 'Rating',
+                ratingValue: '4.5',
+              },
+              author: {
+                '@type': 'Person',
+                name: 'Suresh Gupta',
+              },
+              reviewBody: 'Good quality and timely delivery. Excellent for industrial furnace operations.',
+            },
+          ],
           offers: {
             '@type': 'Offer',
             url: 'https://indoaristom.com/#products/coke-fines',
@@ -214,6 +307,37 @@ const jsonLd = {
             '@type': 'Brand',
             name: 'Indo Aristom',
           },
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '4.8',
+            ratingCount: '167',
+          },
+          review: [
+            {
+              '@type': 'Review',
+              reviewRating: {
+                '@type': 'Rating',
+                ratingValue: '5',
+              },
+              author: {
+                '@type': 'Person',
+                name: 'Neha Sharma',
+              },
+              reviewBody: 'Excellent water filter media with superior filtration efficiency. Recommended for all water treatment facilities.',
+            },
+            {
+              '@type': 'Review',
+              reviewRating: {
+                '@type': 'Rating',
+                ratingValue: '4.6',
+              },
+              author: {
+                '@type': 'Person',
+                name: 'Rajesh Nair',
+              },
+              reviewBody: 'High purity and uniform granules. Great product for municipal water treatment systems.',
+            },
+          ],
           offers: {
             '@type': 'Offer',
             url: 'https://indoaristom.com/#products/water-filter-media',
@@ -239,6 +363,37 @@ const jsonLd = {
             '@type': 'Brand',
             name: 'Indo Aristom',
           },
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '4.9',
+            ratingCount: '178',
+          },
+          review: [
+            {
+              '@type': 'Review',
+              reviewRating: {
+                '@type': 'Rating',
+                ratingValue: '5',
+              },
+              author: {
+                '@type': 'Person',
+                name: 'Deepak Kumar',
+              },
+              reviewBody: 'Premium quality refractory bricks with excellent thermal stability. Perfect for high-temperature furnaces.',
+            },
+            {
+              '@type': 'Review',
+              reviewRating: {
+                '@type': 'Rating',
+                ratingValue: '4.8',
+              },
+              author: {
+                '@type': 'Person',
+                name: 'Manish Verma',
+              },
+              reviewBody: 'Durable and cost-effective. Ideal for steel industry furnace linings.',
+            },
+          ],
           offers: {
             '@type': 'Offer',
             url: 'https://indoaristom.com/#products/refractory-bricks',
@@ -264,6 +419,37 @@ const jsonLd = {
             '@type': 'Brand',
             name: 'Indo Aristom',
           },
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '4.7',
+            ratingCount: '134',
+          },
+          review: [
+            {
+              '@type': 'Review',
+              reviewRating: {
+                '@type': 'Rating',
+                ratingValue: '5',
+              },
+              author: {
+                '@type': 'Person',
+                name: 'Mohit Singh',
+              },
+              reviewBody: 'Wide range of industrial chemicals with certified quality. Excellent for various manufacturing processes.',
+            },
+            {
+              '@type': 'Review',
+              reviewRating: {
+                '@type': 'Rating',
+                ratingValue: '4.4',
+              },
+              author: {
+                '@type': 'Person',
+                name: 'Isha Kulkarni',
+              },
+              reviewBody: 'Good quality and safe handling. Great choice for power plant and water treatment applications.',
+            },
+          ],
           offers: {
             '@type': 'Offer',
             url: 'https://indoaristom.com/#products/industrial-chemicals',
