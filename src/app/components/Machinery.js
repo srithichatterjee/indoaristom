@@ -51,12 +51,12 @@ export default function Machinery() {
             </span>
           </ScrollReveal>
           <ScrollReveal delay={0.1}>
-            <h2 className="section-title light" style={{ textAlign: 'center' }}>
+            <h2 className="section-title" style={{ textAlign: 'center' }}>
               Industrial-Grade <span className="gold-text">Machinery</span>
             </h2>
           </ScrollReveal>
           <ScrollReveal delay={0.2}>
-            <p className="section-subtitle light" style={{ textAlign: 'center', margin: '0 auto' }}>
+            <p className="section-subtitle" style={{ textAlign: 'center', margin: '0 auto' }}>
               State-of-the-art equipment powering our 1,000 tons/day operational capacity
             </p>
           </ScrollReveal>
