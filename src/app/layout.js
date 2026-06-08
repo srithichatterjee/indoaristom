@@ -6,7 +6,7 @@ export const metadata = {
     default: 'Indo Aristom — Premium Coal, Coke & Industrial Minerals Supplier | Since 1990',
     template: '%s | Indo Aristom',
   },
-  description: 'Indo Aristom is India\'s trusted supplier of premium imported coal, coke, anthracite, water filter media, refractory bricks & industrial chemicals. 30+ years experience, 10,000+ tons annual supply. Serving RINL, major ports & steel industries across India.',
+  description: 'Indo Aristom is India\'s trusted supplier of premium imported coal, coke, anthracite, water filter media, refractory bricks & industrial chemicals. 30+ years experience, 10,000+ tons annually.',
   keywords: [
     'coal supplier India',
     'imported coal',
@@ -128,12 +128,102 @@ const jsonLd = {
     '@type': 'OfferCatalog',
     name: 'Industrial Products',
     itemListElement: [
-      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'Imported Coal' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'Anthracite Coal' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'Coke Fines' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'Water Filter Media' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'Refractory Bricks' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'Industrial Chemicals' } },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Product',
+          name: 'Imported Coal',
+          description: 'Premium quality imported coal for industrial applications',
+          image: 'https://indoaristom.com/images/imported-coal.png',
+          offers: {
+            '@type': 'Offer',
+            priceCurrency: 'INR',
+            price: 'Contact for pricing',
+            availability: 'https://schema.org/InStock',
+            url: 'https://indoaristom.com/#products',
+          },
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Product',
+          name: 'Anthracite Coal',
+          description: 'High-grade imported anthracite coal with superior carbon content',
+          image: 'https://indoaristom.com/images/anthracite.png',
+          offers: {
+            '@type': 'Offer',
+            priceCurrency: 'INR',
+            price: 'Contact for pricing',
+            availability: 'https://schema.org/InStock',
+            url: 'https://indoaristom.com/#products',
+          },
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Product',
+          name: 'Coke Fines',
+          description: 'Premium quality coke fines for steel and sponge iron manufacturing',
+          image: 'https://indoaristom.com/images/coke-fines.png',
+          offers: {
+            '@type': 'Offer',
+            priceCurrency: 'INR',
+            price: 'Contact for pricing',
+            availability: 'https://schema.org/InStock',
+            url: 'https://indoaristom.com/#products',
+          },
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Product',
+          name: 'Water Filter Media',
+          description: 'Specially processed anthracite-based water filter media',
+          image: 'https://indoaristom.com/images/water-filter-media.png',
+          offers: {
+            '@type': 'Offer',
+            priceCurrency: 'INR',
+            price: 'Contact for pricing',
+            availability: 'https://schema.org/InStock',
+            url: 'https://indoaristom.com/#products',
+          },
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Product',
+          name: 'Refractory Bricks',
+          description: 'High-quality refractory bricks for industrial furnaces',
+          image: 'https://indoaristom.com/images/refractory-bricks.png',
+          offers: {
+            '@type': 'Offer',
+            priceCurrency: 'INR',
+            price: 'Contact for pricing',
+            availability: 'https://schema.org/InStock',
+            url: 'https://indoaristom.com/#products',
+          },
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Product',
+          name: 'Industrial Chemicals',
+          description: 'Comprehensive range of industrial chemicals for steel manufacturing and water treatment',
+          image: 'https://indoaristom.com/images/industrial-chemicals.png',
+          offers: {
+            '@type': 'Offer',
+            priceCurrency: 'INR',
+            price: 'Contact for pricing',
+            availability: 'https://schema.org/InStock',
+            url: 'https://indoaristom.com/#products',
+          },
+        },
+      },
     ],
   },
 };
@@ -148,6 +238,7 @@ export default function RootLayout({ children }) {
         <meta name="ICBM" content="17.7231, 83.3013" />
         <link rel="icon" href="/images/logo.jpg" />
         <link rel="apple-touch-icon" href="/images/logo.jpg" />
+        <link rel="sitemap" href="/sitemap.xml" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
