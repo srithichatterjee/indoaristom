@@ -69,10 +69,7 @@
 }
 
 .machineImageOverlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, transparent 40%, rgba(250, 247, 242, 0.5) 100%);
-  pointer-events: none;
+  display: none;
 }
 
 .machineBody {

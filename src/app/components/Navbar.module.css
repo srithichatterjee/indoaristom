@@ -56,7 +56,7 @@
   font-family: var(--font-heading);
   font-size: 1.35rem;
   font-weight: 800;
-  color: var(--color-white);
+  color: var(--color-text-primary);
   letter-spacing: 2px;
   line-height: 1.1;
   transition: var(--transition-base);
@@ -69,7 +69,7 @@
 .logoSubtitle {
   font-family: var(--font-accent);
   font-size: 0.55rem;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color-gold);
   letter-spacing: 3px;
   text-transform: uppercase;
   font-weight: 500;
@@ -90,7 +90,7 @@
   font-family: var(--font-accent);
   font-size: 0.85rem;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.85);
+  color: var(--color-text-secondary);
   padding: 8px 18px;
   border-radius: 30px;
   transition: all 0.3s ease;
@@ -144,7 +144,7 @@
 .hamburger span {
   width: 28px;
   height: 2.5px;
-  background: var(--color-white);
+  background: var(--color-text-primary);
   border-radius: 2px;
   transition: all 0.3s ease;
 }

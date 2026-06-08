@@ -169,10 +169,7 @@ button {
 }
 
 .gold-text {
-  background: var(--gradient-gold-text);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--color-gold);
 }
 
 .gold-divider {
