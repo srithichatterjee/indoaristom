@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Homepage -->
+  <url>
+    <loc>https://indoaristom.com/</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://indoaristom.com/images/logo.jpg</image:loc>
+      <image:title>Indo Aristom Logo</image:title>
+    </image:image>
+  </url>
+
+  <!-- Products Section -->
+  <url>
+    <loc>https://indoaristom.com/#products</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Individual Product Pages (for better SEO) -->
+  <url>
+    <loc>https://indoaristom.com/#products/imported-coal</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://indoaristom.com/images/imported-coal.png</image:loc>
+      <image:title>Premium Imported Coal</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://indoaristom.com/#products/anthracite-coal</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://indoaristom.com/images/anthracite.png</image:loc>
+      <image:title>High-Grade Anthracite Coal</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://indoaristom.com/#products/coke-fines</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://indoaristom.com/images/coke-fines.png</image:loc>
+      <image:title>Premium Metallurgical Coke Fines</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://indoaristom.com/#products/water-filter-media</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://indoaristom.com/images/water-filter-media.png</image:loc>
+      <image:title>Water Filter Media for Industrial Applications</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://indoaristom.com/#products/refractory-bricks</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://indoaristom.com/images/refractory-bricks.png</image:loc>
+      <image:title>High-Quality Refractory Bricks</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://indoaristom.com/#products/industrial-chemicals</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://indoaristom.com/images/industrial-chemicals.png</image:loc>
+      <image:title>Industrial Chemicals for Manufacturing</image:title>
+    </image:image>
+  </url>
+
+  <!-- Industries/Applications Section -->
+  <url>
+    <loc>https://indoaristom.com/#applications</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Service Regions -->
+  <url>
+    <loc>https://indoaristom.com/#visakhapatnam</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>quarterly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://indoaristom.com/#andhra-pradesh</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>quarterly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://indoaristom.com/#odisha</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>quarterly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://indoaristom.com/#contact</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- About Section -->
+  <url>
+    <loc>https://indoaristom.com/#about</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>quarterly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
