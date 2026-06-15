@@ -63,7 +63,7 @@ export default function About() {
             <div className={styles.photoContainer}>
               <div className={styles.photoFrame}>
                 <Image
-                  src="/images/Gemini_Generated_Image_i03clni03clni03c.png"
+                  src="/images/tapan_kumar.jpg"
                   alt="Tapan Kumar Chatterjee - Proprietor of Indo Aristom"
                   width={400}
                   height={500}

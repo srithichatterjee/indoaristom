@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import Image from 'next/image';
 import ScrollReveal from './ScrollReveal';
 import styles from './Gallery.module.css';
 
@@ -8,22 +9,34 @@ const categories = [
     id: 'products-godown',
     label: 'Products in Godown',
     description: 'Our premium coal, coke, and industrial products stored and ready for dispatch from our warehouse facility.',
-    placeholderCount: 4,
-    placeholderLabel: 'Product Image',
+    images: [
+      '/images/product-1.png',
+      '/images/product-2.png',
+      '/images/product-3.png',
+      '/images/product-4.jpg',
+    ],
   },
   {
     id: 'employees',
     label: 'Our Skillful Employees',
     description: 'The dedicated and experienced team behind Indo Aristom\'s 30+ years of operational excellence.',
-    placeholderCount: 4,
-    placeholderLabel: 'Team Photo',
+    images: [
+      '/images/worker-1.png',
+      '/images/worker-2.png',
+      '/images/worker-3.png',
+      '/images/worker-4.jpg',
+    ],
   },
   {
     id: 'machinery-gallery',
     label: 'Our Machinery',
     description: 'State-of-the-art screening plants, crushers, loaders, and pulverizers in action at our facility.',
-    placeholderCount: 4,
-    placeholderLabel: 'Machinery Photo',
+    images: [
+      '/images/machinery-1.png',
+      '/images/machinery-2.png',
+      '/images/machinery-1.png',
+      '/images/machinery-2.png',
+    ],
   },
 ];
 
@@ -77,23 +90,17 @@ export default function Gallery() {
             </ScrollReveal>
 
             <div className={styles.galleryGrid}>
-              {Array.from({ length: activeCategory.placeholderCount }).map((_, index) => (
+              {activeCategory.images.map((image, index) => (
                 <ScrollReveal key={`${activeCategory.id}-${index}`} delay={0.05 * index}>
                   <div className={styles.galleryItem}>
-                    <div className={styles.placeholderContent}>
-                      <div className={styles.placeholderIcon}>
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                          <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
-                          <circle cx="8.5" cy="8.5" r="1.5" />
-                          <polyline points="21 15 16 10 5 21" />
-                        </svg>
-                      </div>
-                      <span className={styles.placeholderText}>
-                        {activeCategory.placeholderLabel} {index + 1}
-                      </span>
-                      <span className={styles.placeholderHint}>
-                        Upload image to fill this slot
-                      </span>
+                    <div className={styles.imageWrapper}>
+                      <Image
+                        src={image}
+                        alt={`${activeCategory.label} ${index + 1}`}
+                        fill
+                        className={styles.galleryImage}
+                        sizes="(max-width: 768px) 100vw, 25vw"
+                      />
                     </div>
                   </div>
                 </ScrollReveal>

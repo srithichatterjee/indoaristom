@@ -62,7 +62,7 @@
   aspect-ratio: 4/3;
   cursor: pointer;
   transition: all 0.4s ease;
-  border: 2px dashed var(--color-warm-gray);
+  border: none;
   background: var(--color-light-gray);
 }
 
@@ -79,6 +79,12 @@
 
 .galleryItemFilled:hover {
   border-color: rgba(184, 134, 11, 0.4);
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .galleryImage {
